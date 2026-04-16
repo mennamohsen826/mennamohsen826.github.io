@@ -3,15 +3,16 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 0;
-}
-body {
+ 
     font-family: 'Segoe UI';
     margin: 0;
     padding: 0;
     line-height: 1.6;
     background-color: #f0f2f5;
     color: #333;
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .home{
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -97,7 +98,8 @@ main {
     margin: 30px auto;
     padding: 20px;
     background: white;
-   
+   flex: 1;
+
 }
 
 h2 {
@@ -203,7 +205,7 @@ footer {
     }
 
     nav ul li a {
-        display: block;
+      
         width: 100%;
         padding: 10px;
     }
