@@ -1,0 +1,191 @@
+body {
+  background-image: url("photo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+body {
+    font-family: 'Segoe UI';
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+    color: #333;
+}
+.home{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: large;
+font-weight:600;
+color: #123479;
+}
+
+label{
+
+    color:#123479;
+font-weight: bold;
+
+}
+
+td{
+    color:#123479;
+font-weight: bold;
+
+
+}
+legend{
+    color:#123479;
+font-weight: bold;
+font-size: 20px; 
+padding: 8 10px;
+margin-bottom: 20px;
+}
+ 
+.qu{
+
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: large;
+font-weight:600;
+color:#123479;
+
+}
+
+
+
+header {
+    background-color: #123479;
+    color: white;
+    padding: 25px 10px;
+    text-align: center;
+   
+}
+
+header h1 {
+    margin: 0;
+    font-size:30px;
+    
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+   
+    font-size:15px;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #123479;
+      font-size:18px;
+}
+
+
+main {
+    max-width: 900px;
+    width: 90%; 
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+   
+}
+
+h2 {
+    color: #123479;
+    text-align: center;
+    border-bottom: 3px solid #123479;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+section {
+    overflow-x: auto; 
+}
+
+table {
+    width: 100%;
+      margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 8px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+}
+
+th {
+    background-color: #123479;
+    color: white;
+}
+
+
+fieldset {
+    border: 2px solid #123479;
+   
+    padding: 15px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box; 
+}
+
+input[type="submit"] {
+    background-color: #123479;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #123479; 
+    color: white;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 15px 5px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main {
+        padding: 15px;
+        margin: 15px auto;
+    }
+    
+    th, td {
+        font-size:12.8px;
+        padding: 8px 4px;
+    }
+}
