@@ -195,15 +195,30 @@ nav ul li a {
     main {
         padding: 15px;
         margin: 10px;
-        width: auto;
+        width: 100%;
+        height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
     
+form{
+width: 90%;
+height: 70vh;
+display: flex;
+flex-direction:column ;
+align-items: center;
+justify-content: center;
+padding: 50px 0px;
+
+}
+
+
+
     th, td {
         font-size:12.8px;
         padding: 8px 4px;
     }
-    footer {
-        font-size: 12px;
-        padding: 15px;
-    }
+    
 }
